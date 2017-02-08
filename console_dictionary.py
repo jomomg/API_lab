@@ -6,7 +6,7 @@ import argparse
 
 parser = argparse.ArgumentParser(
     description="A Simple Command Line Dictionary Program")
-parser.add_argument('word', type=str, help='enter a word to be translated')
+parser.add_argument('word', type=str, help='enter a word to get the definition')
 
 args = parser.parse_args()
 api_url = 'http://api.pearson.com/v2/dictionaries/ldoce5/entries'
