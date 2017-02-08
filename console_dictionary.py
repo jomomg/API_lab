@@ -33,7 +33,6 @@ for word in args.word:
             print("Part of speech: {}".format(r[i]['part_of_speech']))
             print("Definition:")
             print(r[i]['senses'][0]['definition'])
-            print("")
     print("\n")
 
 
