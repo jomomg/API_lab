@@ -34,7 +34,7 @@ for word in args.word:
             print("Definition:")
             print(r[i]['senses'][0]['definition'])
             print("")
-    print("-------------------------------------------------------------------------------------")
+    print("\n")
 
 
 
